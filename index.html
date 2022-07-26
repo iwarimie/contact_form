@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>HTML Form</title>
+</head>
+<body>
+    <header>
+        <h1>contact us</h1>
+    </header>
+    <form action="/" method="get">
+        <h2>How can we help you?</h2>
+        <label for="user-name">Your name</label>
+        <input type="text" name="name" id="user-name">
+        <label for="user-email">your email address</label>
+        <input type="email" name="email" id="user-email">
+        <label for="user-phone">your phone number</label>
+        <input type="number" name="phonenumber" id="user-phone">
+        <label for="user-msg">your message</label>
+        <textarea name="msg" id="user-msg" cols="30" rows="10"></textarea>
+        <label for="findus" >how did you find us</label>
+        <select id="findus" name="find_us">
+            <option value="websearch">web search</option>
+            <option value="wordofmouth">word of mouth</option>
+            <option value="other">other</option>
+        </select> 
+    <div class="form-control-inline-container">
+        <p><strong>how should we reply?</strong></p>
+        <div class="form-control-inline">
+            <input type="radio" name="find-us" id="callme" value="call-me">
+             <label for="callme">call me</label>
+             
+         </div>
+       
+        <div class="form-control-inline">
+            <input type="radio" name="find-us" id="sendemail" value="send-me-email">
+            <label for="sendemail">send me an email</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" name="find-us" id="noreply">
+            <label for="noreply">don't reply</label>
+        </div>
+    </div>
+        <!-- <hr> -->
+          <div class="form-control-inline">
+            <input type="checkbox" name="acceptterms" id="terms">
+            <label for="terms">accept terms</label>
+            
+            
+        </div>
+        
+        
+        <div class="form-control-inline btn">
+            <button type="reset" id="reset">reset</button>
+            <button type="submit" id="submit">submit</button>
+
+        </div> 
+       
+        
+    </form>
+</body>
+</html>

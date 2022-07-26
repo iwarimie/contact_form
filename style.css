@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+header {
+
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+form {
+    width: 30rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: rgb(41, 41, 41);
+    line-height: 1.5rem;
+    box-shadow: 3px 3px 10px rgb(14, 15, 22);
+
+}
+
+input {
+    width: 100%; 
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0.2rem;
+    border-radius: 2px;
+    cursor: default;
+
+}
+
+input:hover {
+    background-color: rgb(225, 231, 233);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.2rem;
+    text-transform: capitalize;
+}
+
+select {
+    width: 28rem;
+    color: rgb(14, 15, 22);
+    /* border-color: rgb(236, 236, 236); */
+    margin-bottom: 1rem;
+}
+select option {
+    background-color: rgb(142, 152, 241);
+    width: 100%;
+}
+.form-control-inline {
+    display: flex; 
+    width: auto;
+    margin-right: 0,5rem;
+}
+select option::backdrop {
+    background-color: rgb(142, 152, 241);
+    width: 100%;
+}
+
+
+.form-control-inline-container {
+    margin-bottom: 1rem;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 00.5rem;
+}
+
+.form-control-inline input:hover {
+    background-color: rgb(64, 64, 66);
+}
+
+.form-control-inline label {
+    margin-bottom: 0;
+}
+
+textarea {
+    width: 100%;
+    cursor: pointer;
+}
+textarea:hover {
+    background-color: rgb(225, 231, 233);
+}
+p {
+    text-transform: capitalize;
+}
+
+/* hr {
+    margin-bottom: 1rem;
+} */
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 0.3rem 0.5rem; */
+    /* padding: 3rem; */
+}
+
+button {
+    padding: 0.5rem 0.9rem;
+    background-color: rgb(253, 247, 247);
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(142, 152, 241);
+}
+
+#reset {
+    margin-right: 0.5rem;
+}
